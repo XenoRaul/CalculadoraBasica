@@ -12,6 +12,6 @@ cin>>d;
 
 res=c-d;
 
-cout>>res;
+cout<<res;
 
 break;
