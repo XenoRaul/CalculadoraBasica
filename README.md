@@ -34,5 +34,12 @@ multi=a*b;
 cout<<"El resultado es: ";
 cout<<multi;
 
+cout<<"Ingresa el primer numero";
+cin>>a;
+cout<<"Ingresa el segundo numero";
+cin>>b;
+res=a/b;
+cout<<"El resultado es:">>res;
+
 return 0;
 }
