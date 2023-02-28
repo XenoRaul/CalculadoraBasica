@@ -1,8 +1,19 @@
 # CalculadoraBasica
 Proyecto de calculadora
 
-case 2:
-int c, d, res;
+#include<iostream>
+using namespace std;
+
+int main{
+
+int a,b,suma, res;
+
+cout<<"Bienvenidos a nuestra calculadora";
+cout<<"Ingresa primer numero";
+cin>>a;
+cout<<"Ingresa segundo numero";
+cin>>b;
+
 
 cout<<"Ingresa primer numero";
 cin>>c;
@@ -14,4 +25,14 @@ res=c-d;
 
 cout<<res;
 
-break;
+
+cout<<"Ingresa el primer numero";
+cin>>a;
+cout<<"Ingresa el segundo numero";
+cin>>b;
+multi=a*b;
+cout<<"El resultado es: ";
+cout<<multi;
+
+return 0;
+}
